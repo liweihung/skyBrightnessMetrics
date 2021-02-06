@@ -42,11 +42,11 @@ import filepath
 
 #-----------------------------------------------------------------------------#
 
-def nl_to_ucd_per_m2(nl):
+def nl_to_ucd_per_m2(countnl):
     """
     Unit conversion: converts brightness from nL to ucd/m^2
     """
-    ucd_m2 = (10/n.pi)*nl
+    ucd_m2 = (10/n.pi)*countnl
     return ucd_m2
 
 def get_panoramic_raster(file):
